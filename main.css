@@ -1,0 +1,156 @@
+/* Fonts */
+
+body {
+  font-family: "Public Sans", sans-serif !important;
+}
+
+.blue-title {
+  color: #0064cc;
+  font-weight: 800;
+}
+
+/* Nav */
+.nav-link {
+  color: #00165e !important;
+  font-weight: bold !important;
+}
+.navbar {
+  background-color: white !important;
+}
+
+/* Index */
+
+/* section one */
+
+.section-one {
+  background-color: #0064cc;
+  color: white;
+  height: 100%;
+}
+
+.div-img {
+  padding-right: 0% !important;
+}
+
+.first-img {
+  width: 100%;
+}
+
+.welcome-title {
+  font-size: 40px;
+  width: 100%;
+}
+
+@media (min-width: 420px) {
+  .welcome-title {
+    font-size: 70px;
+    width: 100%;
+  }
+}
+
+.welcome-text {
+  font-size: 40px;
+}
+
+/* section two */
+
+.section-two {
+  background-color: #00165e;
+  color: #7fc4fd;
+  width: 100%;
+  height: 100%;
+}
+
+.text-section-two {
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+/* Section three */
+
+.pc-area {
+  background-color: #d9f0fc;
+}
+
+.img-logo {
+  width: 90%;
+}
+
+@media (min-width: 992px) {
+  .img-logo {
+    width: 60%;
+  }
+}
+
+/* About */
+
+/* Section one about */
+
+.tablet-area {
+  background-color: #0064cc;
+}
+
+.img-tablet {
+  width: 90%;
+}
+
+@media (min-width: 992px) {
+  .img-tablet {
+    width: 300px;
+  }
+}
+
+.section-two-about {
+  background-color: #fff4e6;
+  width: 100%;
+  height: auto;
+}
+
+.items-section-two {
+  background-color: #00165e;
+  color: white;
+}
+
+/* Useful */
+
+.img-useful {
+  width: 100%;
+}
+
+/* mission */
+
+.img-mission {
+  width: 100%;
+}
+
+/* Get in touch */
+
+.text-get {
+  color: #0064cc;
+  font-size: 25px;
+}
+
+@media (min-width: 1200px) {
+  .border-church {
+    border-right: 4px solid #00165e;
+    border-left: 4px solid #00165e;
+  }
+}
+
+/* Footer */
+
+.footer a {
+  color: white !important;
+  background-color: #00165e;
+}
+
+.footer {
+  background-color: #00165e;
+}
+
+@media (max-width: 576px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+  }
+}
